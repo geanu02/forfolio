@@ -6,13 +6,12 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.75rem;
-  color:dimgrey;
 }
 
 .container-hero {
   max-width: 1000px;
-  height: 1200px;
-  margin: 120px auto 0;
+  height: 800px;
+  margin: 100px auto 0;
 }
 
 h4.subtitle-hero {
@@ -24,4 +23,14 @@ h4.subtitle-hero {
   margin-top: -20px;
   margin-left: 40px;
   padding: 0;
+}
+
+/* Full Desktop Screen */
+@media screen and (min-width: 600px) {
+  .container-hero {
+    max-width: 1000px;
+    height: 800px;
+    margin: 100px auto 0;
+  }
+
 }
