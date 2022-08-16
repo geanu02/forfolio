@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+body {
+  background-image: url('./Images/travel.jpg');
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-hero {
+  width: 1000px;
+  height: 1200px;
+  margin: 150px auto 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4.subtitle-hero {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
+  font-weight: 200;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-top: -20px;
+  margin-left: 40px;
+  padding: 0;
 }
